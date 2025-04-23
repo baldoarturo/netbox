@@ -7,5 +7,5 @@ sudo apt install -y podman
 pip3 install podman-compose
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requeriments.txt
+pip install -r requirements.txt
 podman-compose up -d -f compose.yml

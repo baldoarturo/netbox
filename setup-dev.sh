@@ -9,3 +9,6 @@ podman-compose -f compose.yml up -d
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+cd netbox
+./manage.py makemigrations
+./manage.py migrate
